@@ -9,10 +9,12 @@ h1 {
 body {
   counter-reset: game;
   text-align: center;
-  background: #e9b58b;
+  background: #080d12; /* Dark futuristic background */
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
-  color: #333;
+  color: #0ff; /* Neon cyan text */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #00f; /* Neon glow effect */
 }
+
 
 input:checked {
   counter-increment: game;
